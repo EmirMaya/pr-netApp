@@ -1,0 +1,36 @@
+.infoDiv {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iconContainer {
+    margin: 20px 0;
+    width: 80%;
+}
+
+.titleDiv {
+    display: flex;
+    justify-content: start;
+}
+
+.fa-plus {
+    width: 5%;
+    font-size: 30px;
+    cursor: pointer;
+    color: #FF0035;
+    margin-bottom: 15px;
+}
+
+.fa-plus h3 {
+    color: #212227;
+}
+
+.info {
+    background-color: #FAA916;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+}
