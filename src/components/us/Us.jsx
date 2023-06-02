@@ -2,8 +2,7 @@
 import "./us.css";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Header from "../header/Header";
-import Footer from "../footer/Footer";
+
 
 const Us = () => {
   const [showInfo1, setShowInfo1] = useState(false);

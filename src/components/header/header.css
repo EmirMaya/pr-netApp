@@ -23,7 +23,7 @@
 }
 
 .homeH1 {
-    font-size: 46px;
+    font-size: 36px;
     padding: 5px;
     font-weight: bold;
 }
@@ -32,6 +32,7 @@
 .navbar {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     position: relative;
 }
@@ -58,6 +59,7 @@
 
 .navItem {
     font-size: 22px;
+    text-align: center;
 }
 
 .navItem a {
@@ -66,7 +68,6 @@
 }
 
 .navItem a:hover {
-    font-size: 24px;
     transition: ease 0.3s;
     color: #FAA916;
 }

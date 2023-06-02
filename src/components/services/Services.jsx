@@ -1,13 +1,11 @@
 import './services.css'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Header from '../header/Header'
-import Footer from '../footer/Footer'
+
 
 const Services = () => {
     return (
         <div className='serviceDiv'>
-            <Header />
             <main>
                 <div className='servicesDiv'>
                     <h2>
@@ -67,7 +65,6 @@ const Services = () => {
                     </div>
                 </div>
             </main>
-            <Footer />
         </div>
     )
 }

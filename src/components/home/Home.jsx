@@ -2,9 +2,7 @@
 import './home.css'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import Header from '../header/Header'
 import CarouselComp from './carousel/Carousel'
-import Footer from '../footer/Footer'
 
 
 
@@ -14,7 +12,6 @@ const Home = () => {
 
     return (
         <div className='homeDiv'>
-            <Header />
 
             <main className='homeMain'>
                 <CarouselComp />
@@ -108,7 +105,6 @@ const Home = () => {
 
             </main>
 
-            <Footer />
         </div >
     )
 }
