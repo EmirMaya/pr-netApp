@@ -138,16 +138,18 @@
         position: absolute;
         flex-direction: column;
         align-items: flex-end;
-        background-color: #F6F7EB;
-        top: 48px;
+        background: linear-gradient(#00569c, #63ADF2);
+        top: 42px;
         right: 0;
         width: 40%;
         max-width: 300%;
 
     }
 
+ 
+
     .navItem a {
         font-size: 16px;
-        color: black;
+        color: F6F7EB;
     }
 }

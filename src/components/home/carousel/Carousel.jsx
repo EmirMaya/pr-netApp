@@ -8,7 +8,7 @@ const CarouselComp = () => {
     return (
         <Carousel className="carousel" rows={1} autoplay={5000} loop={true}>
             <Carousel.Item className='carouselItem'>
-                <img className="carouselImg" src="../../public/img/carousel1.jpg" />
+                <img className="carouselImg" src="../../img/carousel1.jpg" />
                 <div className='carouselDiv'>
                     <div className='carouselBox'>
                         <h3 className='carouselH3'>
@@ -21,7 +21,7 @@ const CarouselComp = () => {
                 </div>
             </Carousel.Item>
             <Carousel.Item className='carouselItem'>
-                <img className="carouselImg" src="../../public/img/carousel2.jpg" />
+                <img className="carouselImg" src="../../img/carousel2.jpg" />
                 <div className='carouselDiv'>
                     <div className='carouselBox'>
                         <h3 className='carouselH3'>
@@ -35,7 +35,7 @@ const CarouselComp = () => {
                 </div>
             </Carousel.Item>
             <Carousel.Item className='carouselItem'>
-                <img className="carouselImg" src="../../public/img/carousel3.jpeg" />
+                <img className="carouselImg" src="../../img/carousel3.jpeg" />
                 <div className='carouselDiv'>
                     <div className='carouselBox'>
                         <h3 className='carouselH3'>

@@ -20,7 +20,7 @@ const Home = () => {
                         Servicios de seguridad cibernética
                     </h4>
                     <div className='serviceDiv'>
-                        <img className='serviceImg' src="../../public/img/services.jpg" alt="" />
+                        <img className='serviceImg' src="../../img/services.jpg" alt="" />
                         <ul className='serviceUl'>
                             <li className='serviceLi'>
                                 <div>
@@ -58,37 +58,37 @@ const Home = () => {
 
                     <div className='cardsDiv'>
                         <div className='card'>
-                            <img className='cardImg' src="../../public/img/analytics.svg" alt="" />
+                            <img className='cardImg' src="../../img/analytics.svg" alt="" />
                             <h5 className='cardTitle'>
                                 Analytics
                             </h5>
                         </div>
                         <div className='card'>
-                            <img className='cardImg' src="../../public/img/cloud.svg" alt="" />
+                            <img className='cardImg' src="../../img/cloud.svg" alt="" />
                             <h5 className='cardTitle'>
                                 Respaldo de datos
                             </h5>
                         </div>
                         <div className='card'>
-                            <img className='cardImg' src="../../public/img/progress.svg" alt="" />
+                            <img className='cardImg' src="../../img/progress.svg" alt="" />
                             <h5 className='cardTitle'>
                                 Continuidad
                             </h5>
                         </div>
                         <div className='card'>
-                            <img className='cardImg' src="../../public/img/security.svg" alt="" />
+                            <img className='cardImg' src="../../img/security.svg" alt="" />
                             <h5 className='cardTitle'>
                                 Seguridad
                             </h5>
                         </div>
                         <div className='card'>
-                            <img className='cardImg' src="../../public/img/server.svg" alt="" />
+                            <img className='cardImg' src="../../img/server.svg" alt="" />
                             <h5 className='cardTitle'>
                                 Servidores
                             </h5>
                         </div>
                         <div className='card'>
-                            <img className='cardImg' src="../../public/img/team.svg" alt="" />
+                            <img className='cardImg' src="../../img/team.svg" alt="" />
                             <h5 className='cardTitle'>
                                 Servicio personalizado
                             </h5>

@@ -15,7 +15,7 @@ const Header = () => {
         <header className='appHeader'>
             <div className='logoDiv'>
                 <Link className='logo' to='/'>
-                    <img src="../../public/img/logo.png" alt="logo" />
+                    <img src="../../img/logo.png" alt="logo" />
                 </Link>
                 <h1 className='homeH1'>PR-NET</h1>
             </div>

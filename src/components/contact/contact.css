@@ -1,0 +1,10 @@
+.contactMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm {
+    width: 60%;
+    margin: 100px 0;
+}

@@ -1,0 +1,55 @@
+.servMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.servInfo {
+  margin: 50px 0;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.servImg {
+  width: 40%;
+  padding: 10px;
+}
+
+.servDescription {
+  padding: 5px 0 0 30px;
+  /* background-color: #FAA916; */
+}
+
+.servH3,
+.h4Ul {
+  border-bottom: 1px solid #faa916;
+}
+
+.servText {
+  font-size: 20px;
+  text-align: start;
+}
+
+.h4Ul {
+  margin-top: 50px;
+}
+
+.servUl {
+  text-align: start;
+}
+
+.servLi {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.fa-shield-alt {
+  color: #ff0035;
+  width: 7%;
+}
