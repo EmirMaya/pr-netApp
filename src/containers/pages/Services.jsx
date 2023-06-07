@@ -1,4 +1,4 @@
-import './services.css'
+import '../../components/services/services.css'
 import React from 'react'
 import { Link } from 'react-router-dom'
 

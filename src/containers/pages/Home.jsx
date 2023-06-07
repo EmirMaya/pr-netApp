@@ -1,8 +1,8 @@
 // Imports
-import './home.css'
+import '../../components/home/home.css'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import CarouselComp from './carousel/Carousel'
+import CarouselComp from '../../components/home/carousel/Carousel'
 
 
 

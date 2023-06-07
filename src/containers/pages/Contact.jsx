@@ -1,5 +1,5 @@
 //imports
-import "./contact.css";
+import "../../components/contact/contact.css";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
