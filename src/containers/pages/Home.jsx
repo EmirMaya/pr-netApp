@@ -57,37 +57,37 @@ const Home = () => {
                     </h4>
 
                     <div className='cardsDiv'>
-                        <div className='card'>
+                        <div className='card scale-105'>
                             <img className='cardImg' src="../../img/analytics.svg" alt="" />
                             <h5 className='cardTitle'>
                                 Analytics
                             </h5>
                         </div>
-                        <div className='card'>
+                        <div className='card scale-105'>
                             <img className='cardImg' src="../../img/cloud.svg" alt="" />
                             <h5 className='cardTitle'>
                                 Respaldo de datos
                             </h5>
                         </div>
-                        <div className='card'>
+                        <div className='card scale-105'>
                             <img className='cardImg' src="../../img/progress.svg" alt="" />
                             <h5 className='cardTitle'>
                                 Continuidad
                             </h5>
                         </div>
-                        <div className='card'>
+                        <div className='card scale-105'>
                             <img className='cardImg' src="../../img/security.svg" alt="" />
                             <h5 className='cardTitle'>
                                 Seguridad
                             </h5>
                         </div>
-                        <div className='card'>
+                        <div className='card scale-105'>
                             <img className='cardImg' src="../../img/server.svg" alt="" />
                             <h5 className='cardTitle'>
                                 Servidores
                             </h5>
                         </div>
-                        <div className='card'>
+                        <div className='card scale-105'>
                             <img className='cardImg' src="../../img/team.svg" alt="" />
                             <h5 className='cardTitle'>
                                 Servicio personalizado

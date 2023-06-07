@@ -24,3 +24,9 @@ html,
 body {
   height: 100%;
 }
+
+.scale-105:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: ease 0.3s;
+}
