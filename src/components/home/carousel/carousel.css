@@ -37,6 +37,7 @@ main .bhHnmT {
 
 .carouselH3 {
     font-size: 34px;
+    margin-bottom: 20px;
 }
 
 .carouselLink {
@@ -45,6 +46,7 @@ main .bhHnmT {
     font-size: 20px;
     background-color: #637074;
     color: #F6F7EB;
+
 }
 
 .carouselLink:hover {

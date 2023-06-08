@@ -1,9 +1,16 @@
+@font-face {
+  font-family: 'Gilroy-Medium'; /* Asigna un nombre a tu fuente */
+  src: url('./fonts/gilroy/Gilroy-Medium.ttf') format('truetype'); /* Ruta relativa al archivo de fuente */
+}
+
+
 * {
   box-sizing: border-box;
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Play', 'Noto Serif Display', sans-serif;
+  /* font-family: 'Play', 'Noto Serif Display', sans-serif; */
+  font-family: 'Gilroy-Medium', sans-serif;
 }
 
 .app {
