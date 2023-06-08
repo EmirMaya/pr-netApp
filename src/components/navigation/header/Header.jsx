@@ -1,7 +1,7 @@
 //imports
 import './header.css'
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => {
     //añadimos una variable estado para ver si el navbar esta desplegado
@@ -28,16 +28,16 @@ const Header = () => {
 
                 <ul className={`navList  ${isNavbarOpen ? 'open' : ''}`}>
                     <li className='navItem'>
-                        <Link to='/'>Inicio</Link>
+                        <NavLink to='/'>Inicio</NavLink>
                     </li>
                     <li className='navItem'>
-                        <Link to='/services'>Servicios</Link>
+                        <NavLink to='/services'>Servicios</NavLink>
                     </li>
                     <li className='navItem'>
-                        <Link to='/us'>Nosotros</Link>
+                        <NavLink to='/us'>Nosotros</NavLink>
                     </li>
                     <li className='navItem'>
-                        <Link to='/contact'>Contacto</Link>
+                        <NavLink to='/contact'>Contacto</NavLink>
                     </li>
                 </ul>
                 {/* {isNavbarOpen && (

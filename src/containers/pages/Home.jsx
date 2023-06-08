@@ -9,7 +9,7 @@ import CarouselComp from '../../components/home/carousel/Carousel'
 const Home = () => {
 
 
-
+    
     return (
         <div className='homeDiv'>
 
