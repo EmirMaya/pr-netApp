@@ -1,53 +1,54 @@
 .footer {
-    background-color: #63ADF2;
-    padding: 30px;
-
+  background-color: #63adf2;
+  padding: 30px;
+  width: 100%;
+  margin-top: auto;
 }
 
 .contactContainer {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: solid 1px #212227;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #212227;
 }
 
 .redIcons {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 10px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
 }
 
 .linkIcons {
-    width: 20%; 
+  width: 20%;
 }
 
 .fab {
-    color: #212227;
-    font-size: 45px;
+  color: #212227;
+  font-size: 45px;
 }
 
 .fab:hover {
-    cursor: pointer;
-    font-size: 55px;
-    transition: ease 0.3s;
+  cursor: pointer;
+  font-size: 55px;
+  transition: ease 0.3s;
 }
 
 .mailDiv {
-    width: 30%;
+  width: 30%;
 }
 
 .email {
-    color: #212227;
+  color: #212227;
 }
 
 .email:hover {
-    color: black;
+  color: black;
 }
 
 p {
-    padding-top: 5px;
-    color: #212227;
-    text-align: center;
-    font-size: 14px;
+  padding-top: 5px;
+  color: #212227;
+  text-align: center;
+  font-size: 14px;
 }
