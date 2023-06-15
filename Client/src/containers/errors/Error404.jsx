@@ -1,23 +1,19 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
-
-function Error404() {
+const Error404 = () => {
   return (
-    <body>
-        <div class="d-flex align-items-center justify-content-center vh-100">
-            <div class="text-center">
-                <h1 class="display-1 fw-bold">404</h1>
-                <p class="fs-3"> <span class="text-danger">Opps!</span> Página no encontrada</p>
-                <p class="lead">
-                    La página que buscas no existe.
-                  </p>
-                <Link to="/" class="btn btn-primary custom-btn">Ir al inicio</Link>
-            </div>
-        </div>
-    </body>
+    <div className="container text-center mt-5">
+      <h1 class="display-1 fw-bold">404</h1>
+      <p class="fs-3">
+        {" "}
+        <span class="text-danger">Opps!</span> Página no encontrada
+      </p>
+      <Link to="/" class="btn btn-primary custom-btn">
+        Ir al inicio
+      </Link>
+    </div>
+  );
+};
 
-  )
-}
-
-export default Error404
+export default Error404;

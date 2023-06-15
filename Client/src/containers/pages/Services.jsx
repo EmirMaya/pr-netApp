@@ -1,69 +1,45 @@
-import '../../components/services/services.css'
-import React from 'react'
-import { Link } from 'react-router-dom'
-
+import "../../components/services/services.css";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import axios from "axios";
 
 const Services = () => {
-    return (
-        <div className='serviceDiv'>
-            <main>
-                <div className='servicesDiv'>
-                    <h2>
-                        Servicios
-                    </h2>
-                    <div className='cardContainer'>
-                        <div className='cardService'>
-                            <img src="../../img/auditory.jpg" alt="auditoria" />
-                            <h3 className='cardH3'>Auditorías de <br/>seguridad</h3>
-                            <p className='cardPrice'>$ 999</p>
+  const [services, setServices] = useState([]);
 
-                            <Link className='cardButton' to='/auditory'>
-                                Ver
-                            </Link>
-                        </div>
-                        <div className='cardService'>
-                            <img src="../../img/auditory.jpg" alt="" />
-                            <h3 className='cardH3'>Pruebas de penetración de aplicaciones móviles</h3>
-                            <p className='cardPrice'>$ 999</p>
+  useEffect(() => {
+    const getServices = async () => {
+      try {
+        const response = await axios.get("http://localhost:3001/services");
+        setServices(response.data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
 
-                            <Link className='cardButton' to='/mobileApp'>
-                                Ver
-                            </Link>
+    getServices();
+  }, []);
 
-                        </div>
-                        <div className='cardService'>
-                            <img src="../../img/auditory.jpg" alt="" />
-                            <h3 className='cardH3'>Servicios de concientización en seguridad</h3>
-                            <p className='cardPrice'>$ 999</p>
-
-                            <Link className='cardButton' to='/awareness'>
-                                Ver
-                            </Link>
-
-                        </div>
-                        <div className='cardService'>
-                            <img src="../../img/auditory.jpg" alt="" />
-                            <h3 className='cardH3'>Respuesta a incidentes de seguridad</h3>
-                            <p className='cardPrice'>$ 999</p>
-
-                            <Link className='cardButton' to='/incidents'>
-                                Ver
-                            </Link>
-
-                        </div>
-                        <div className='cardService'>
-                            <img src="../../img/auditory.jpg" alt="" />
-                            <h3 className='cardH3'>Evaluación de seguridad de Internet de las Cosas (IoT)</h3>
-                            <p className='cardPrice'>$ 999</p>
-                            <Link className='cardButton' to='/internet'>
-                                Ver
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </main>
+  return (
+    <div className="serviceDiv">
+      <main>
+        <div className="servicesDiv">
+          <h2>Servicios</h2>
+          <div className="cardContainer">
+            {services.map((service) => (
+              <div className="cardService" key={service.id}>
+                <img src={service.image} alt={service.title} />
+                <h3 className="cardH3">{service.name}</h3>
+                <p className="cardPrice">$ {service.price.toLocaleString()}</p>
+                <Link className="cardButton" to={`/services/${service.id}`}>
+                  Ver
+                </Link>
+              </div>
+            ))}
+          </div>
         </div>
-    )
-}
+      </main>
+    </div>
+  );
+};
 
-export default Services
+export default Services;

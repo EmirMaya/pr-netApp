@@ -24,13 +24,14 @@
 }
 
 .fab {
+  position: relative;
   color: #212227;
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .fab:hover {
   cursor: pointer;
-  font-size: 55px;
+  font-size: 34px;
   transition: ease 0.3s;
 }
 

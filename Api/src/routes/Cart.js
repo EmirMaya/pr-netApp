@@ -3,7 +3,7 @@ const router = express.Router();
 router.use(express.json());
 //
 
-router.get("/", async (req, res) => {
+router.post("/", async (req, res) => {
   const { productId } = req.params;
   try {
   } catch (error) {}

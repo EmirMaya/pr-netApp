@@ -4,25 +4,10 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Us = () => {
-  const [showInfo1, setShowInfo1] = useState(false);
-  const [showInfo2, setShowInfo2] = useState(false);
-  const [showInfo3, setShowInfo3] = useState(false);
-  const [showInfo4, setShowInfo4] = useState(false);
+  const [activeSection, setActiveSection] = useState(null);
 
-  const handleIconClick1 = () => {
-    setShowInfo1(!showInfo1);
-  };
-
-  const handleIconClick2 = () => {
-    setShowInfo2(!showInfo2);
-  };
-
-  const handleIconClick3 = () => {
-    setShowInfo3(!showInfo3);
-  };
-
-  const handleIconClick4 = () => {
-    setShowInfo4(!showInfo4);
+  const handleIconClick = (section) => {
+    setActiveSection(activeSection === section ? null : section);
   };
 
   return (
@@ -32,11 +17,16 @@ const Us = () => {
         <div className="infoDiv">
           <div className="iconContainer">
             <div className="titleDiv">
-              <i className="fas fa-plus" onClick={handleIconClick1}></i>
+              <i
+                className={`fas ${
+                  activeSection === "empresa" ? "fa-minus" : "fa-plus"
+                }`}
+                onClick={() => handleIconClick("empresa")}
+              ></i>
               <h3>Nuestra empresa</h3>
             </div>
 
-            {showInfo1 && (
+            {activeSection === "empresa" && (
               <div className="info">
                 Somos una empresa de desarrolladores especializados en servicios
                 de hacking ético. Nuestra misión es ayudar a las pequeñas y
@@ -67,11 +57,16 @@ const Us = () => {
 
           <div className="iconContainer">
             <div className="titleDiv">
-              <i className="fas fa-plus" onClick={handleIconClick2}></i>
+              <i
+                className={`fas ${
+                  activeSection === "hacking" ? "fa-minus" : "fa-plus"
+                }`}
+                onClick={() => handleIconClick("hacking")}
+              ></i>
               <h3>¿Qué es el hacking ético?</h3>
             </div>
 
-            {showInfo2 && (
+            {activeSection === "hacking" && (
               <div className="info">
                 El término de hacking ético es cada vez más popular, se trata de
                 una práctica a la que muchas empresas tecnológicas o con un
@@ -108,11 +103,16 @@ const Us = () => {
 
           <div className="iconContainer">
             <div className="titleDiv">
-              <i className="fas fa-plus" onClick={handleIconClick3}></i>
+              <i
+                className={`fas ${
+                  activeSection === "benefits" ? "fa-minus" : "fa-plus"
+                }`}
+                onClick={() => handleIconClick("benefits")}
+              ></i>{" "}
               <h3>Beneficios del Hacking Ético para las empresas</h3>
             </div>
 
-            {showInfo3 && (
+            {activeSection === "benefits" && (
               <div className="info">
                 <p>
                   El hacking ético te brinda múltiples beneficios. Algunos de
@@ -147,11 +147,16 @@ const Us = () => {
 
           <div className="iconContainer">
             <div className="titleDiv">
-              <i className="fas fa-plus" onClick={handleIconClick4}></i>
+              <i
+                className={`fas ${
+                  activeSection === "fases" ? "fa-minus" : "fa-plus"
+                }`}
+                onClick={() => handleIconClick("fases")}
+              ></i>{" "}
               <h3>Fases de nuestros servicios</h3>
             </div>
 
-            {showInfo4 && (
+            {activeSection === "fases" && (
               <div className="info">
                 1. Firma del acuerdo Lo primero que tiene que hacer el
                 profesional en hacking ético es firmar un acuerdo, en
