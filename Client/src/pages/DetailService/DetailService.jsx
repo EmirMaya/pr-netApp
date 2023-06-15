@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams, Link } from "react-router-dom";
-import "../../components/services/serv.css";
-import Error404 from "../errors/Error404";
+import "./serv.css";
+import Error404 from "../../components/Error404/Error404";
 
 const DetailService = () => {
   const [service, setService] = useState(null);

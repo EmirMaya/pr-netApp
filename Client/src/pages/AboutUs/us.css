@@ -58,3 +58,17 @@
     transform: scaleY(1);
   }
 }
+
+@media screen and (max-width: 480px) {
+  .fa-plus {
+    font-size: 20px;
+  }
+  .fa-minus {
+    font-size: 20px;
+  }
+
+  .infoDiv h3 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}

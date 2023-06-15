@@ -1,13 +1,13 @@
 import "./assets/styles/App.css";
 import { Route, Routes } from "react-router-dom";
-import Header from "./components/navigation/header/Header";
-import Home from "./containers/pages/Home";
-import Us from "./containers/pages/AboutUs";
-import Services from "./containers/pages/Services";
-import DetailService from "./containers/pages/DetailService";
-import Contact from "./containers/pages/Contact";
-import Footer from "./components/navigation/footer/Footer";
-import Error404 from "./containers/errors/Error404";
+import Header from "./components/Header/Header";
+import Home from "./pages/Home/Home";
+import Us from "./pages/AboutUs/AboutUs";
+import Services from "./pages/Services/Services";
+import DetailService from "./pages/DetailService/DetailService";
+import Contact from "./pages/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import Error404 from "./components/Error404/Error404";
 
 function App() {
   return (

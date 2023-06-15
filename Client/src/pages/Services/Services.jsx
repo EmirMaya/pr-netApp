@@ -1,4 +1,4 @@
-import "../../components/services/services.css";
+import "./services.css";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
