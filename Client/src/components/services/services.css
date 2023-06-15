@@ -1,49 +1,80 @@
 h2 {
-    margin-top: 30px;
-    text-align: center;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .cardContainer {
-    margin: 40px 0;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  margin: 40px 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .cardService {
-    padding: 20px;
-    height: 400px;
-    text-align: center;
-    margin: 20px;
-    width: 30%;
-    background-color: #F6F7EB;
-    border-radius: 4px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  padding: 20px;
+  height: 400px;
+  text-align: center;
+  margin: 20px;
+  width: 30%;
+  background-color: #f6f7eb;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  transition: filter 0.3s;
 }
 
+.cardService:hover {
+  filter: brightness(0.95);
+}
+
+.cardService img {
+  height: 190px;
+  width: 330px;
+}
 .cardH3 {
-    padding-top: 15px;
-    font-size: 25px;
+  padding-top: 15px;
+  font-size: 25px;
+  height: 90px;
 }
 
 .cardPrice {
-    color: #FAA916;
-    font-size: 18px;
+  color: #faa916;
+  font-size: 18px;
 }
 
 .cardButton {
-    color: #F6F7EB;
-    text-align: center;
-    width: 30%;
-    background-color: #FF0035;
-    padding: 5px 15px;
-    border-radius: 4px;
+  color: #f6f7eb;
+  text-align: center;
+  width: 30%;
+  background-color: #ff0035;
+  padding: 5px 15px;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
 }
 
 .cardButton:hover {
-    color: #212227;
-    background-color: #FAA916;
+  color: #212227;
+  background-color: #faa916;
+}
+
+@media screen and (max-width: 480px) {
+  .cardContainer {
+    flex-direction: column;
+  }
+
+  .cardService {
+    width: 300px;
+  }
+
+  .cardService img {
+    width: 250px;
+    height: auto;
+  }
+
+  .cardH3 {
+    font-size: 20px;
+    height: auto;
+  }
 }

@@ -12,11 +12,19 @@
 
 .servInfo img {
   border-radius: 10px;
-  width: 800px;
-  height: 450px;
+  width: 600px;
+  height: 350px;
+  margin: 10px 0;
 }
 
 .servInfo p {
   font-size: 16px;
   width: 60%;
+}
+.servInfo a {
+  border: none;
+}
+
+.servInfo a:hover {
+  color: #444444;
 }

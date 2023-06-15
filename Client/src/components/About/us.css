@@ -30,6 +30,7 @@
 }
 
 .fa-minus {
+  cursor: pointer;
   font-size: 30px;
   width: 5%;
 }

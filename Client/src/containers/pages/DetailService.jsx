@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import "../../components/services/serv.css";
-import Error404  from "../errors/Error404";
+import Error404 from "../errors/Error404";
 
 const DetailService = () => {
   const [service, setService] = useState(null);
@@ -34,6 +34,9 @@ const DetailService = () => {
       <p>{service.description}</p>
       <p>$ {service.price.toLocaleString()}</p>
       <button class="btn btn-primary custom-btn">Comprar ahora</button>
+      <Link class="btn custom-btn" to="/services">
+        Ir atrás
+      </Link>
     </div>
   );
 };
