@@ -1,19 +1,21 @@
-//imports
-import "./contact.css";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import axios from "axios";
 
 const Contact = () => {
-  const [message, setMessage] = useState(""); //seteo mensaje vacio
+  const [message, setMessage] = useState("");
 
-  const handleSubmit = (evt) => {
-    evt.preventDefault();
-    console.log("Mensaje enviado:", message); //reemplazar por sweet alert
-    setMessage("");
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await axios.post("http://localhost:3001/contact", { message });
+      setMessage("");
+    } catch (error) {
+      console.error("Error al enviar el mensaje:", error);
+    }
   };
 
-  const handleChange = (evt) => {
-    setMessage(evt.target.value);
+  const handleChange = (e) => {
+    setMessage(e.target.value);
   };
 
   return (
