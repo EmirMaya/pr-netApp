@@ -31,7 +31,7 @@ const Services = () => {
                 <h3 className="cardH3">{service.name}</h3>
                 <p className="cardPrice">$ {service.price.toLocaleString()}</p>
                 <Link className="cardButton" to={`/services/${service.id}`}>
-                  Ver
+                  Detalles
                 </Link>
               </div>
             ))}
