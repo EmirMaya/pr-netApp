@@ -19,7 +19,7 @@ const DetailService = () => {
         console.log(error);
       }
     };
-
+    
     getServiceById();
   }, [id]);
 
