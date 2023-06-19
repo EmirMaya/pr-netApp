@@ -12,7 +12,7 @@ const getServices = async (req, res) => {
 const getServiceById = async (req, res) => {
   const id = req.params.id;
   try {
-    const service = await services.find((service) => service.id === id);
+    const service = services.find((service) => service.id.toString() === id);
     if (!service) {
       return res.status(404).json({ error: "Service not found" });
     }

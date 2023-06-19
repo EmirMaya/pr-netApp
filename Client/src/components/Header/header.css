@@ -29,6 +29,11 @@
   margin-top: 10px;
 }
 
+.cart-icon {
+  width: 25px;
+}
+
+
 /* Navbar */
 .navbar {
   display: flex;

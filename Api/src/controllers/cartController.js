@@ -1,26 +1,27 @@
+const { Cart } = require("../db");
+const dbServices = require("../dbServices");
 
-const addToCart = (req, res) => {
+const addToCart = async (req, res) => {
+  const { serviceId } = req.body;
   try {
-    const { productId } = req.body;
+    const service = dbServices.find((service) => service.id === serviceId);
 
-    if (!productId) {
-      return res.status(400).json({ error: "ProductId is required" });
+    if (!service) {
+      return res.status(404).json({ error: "Servicio no encontrado" });
     }
 
-    // Aquí puedes agregar la lógica para agregar el producto al carrito
-    // Por ejemplo, podrías almacenar los productos en un array en memoria
-    // o utilizar una base de datos para persistir los datos del carrito
+    const cartItem = await Cart.create({
+      totalPrice: service.price,
+      serviceId: service.id,
+    });
 
-    // Ejemplo de almacenamiento en un array en memoria
-    const cart = []; // Aquí puedes utilizar una variable global o algún mecanismo de almacenamiento persistente
-
-    cart.push(productId);
-
-    console.log("Producto agregado al carrito:", productId);
-    res.status(200).json({ message: "Product added to cart" });
+    return res
+      .status(200)
+      .json({ message: "Servicio agregado al carrito", cartItem });
   } catch (error) {
-    console.error("Error al agregar el producto al carrito:", error);
-    res.status(500).json({ error: "Error adding product to cart" });
+    return res
+      .status(500)
+      .json({ error: "Error al agregar el servicio al carrito" });
   }
 };
 

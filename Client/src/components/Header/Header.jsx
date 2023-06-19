@@ -2,6 +2,7 @@
 import "./header.css";
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import cartSvg from "../../../public/img/cart.svg";
 
 const Header = () => {
   //añadimos una variable estado para ver si el navbar esta desplegado
@@ -27,16 +28,29 @@ const Header = () => {
 
         <ul className={`navList  ${isNavbarOpen ? "open" : ""}`}>
           <li className="navItem">
-            <NavLink to="/" onClick={toggleNavbar}>Inicio</NavLink>
+            <NavLink to="/" onClick={toggleNavbar}>
+              Inicio
+            </NavLink>
           </li>
           <li className="navItem">
-            <NavLink to="/services" onClick={toggleNavbar}>Servicios</NavLink>
+            <NavLink to="/services" onClick={toggleNavbar}>
+              Servicios
+            </NavLink>
           </li>
           <li className="navItem">
-            <NavLink to="/us" onClick={toggleNavbar}>Nosotros</NavLink>
+            <NavLink to="/us" onClick={toggleNavbar}>
+              Nosotros
+            </NavLink>
           </li>
           <li className="navItem">
-            <NavLink to="/contact" onClick={toggleNavbar}>Contacto</NavLink>
+            <NavLink to="/contact" onClick={toggleNavbar}>
+              Contacto
+            </NavLink>
+          </li>
+          <li className="navItem">
+            <Link to="/Cart" onClick={toggleNavbar}>
+              <img src={cartSvg} alt="Cart" className="cart-icon" />
+            </Link>
           </li>
         </ul>
       </nav>

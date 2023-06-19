@@ -1,6 +1,6 @@
 const dbServices = [
     {
-      "id": "auditory",
+      "id": 1,
       "name": "Auditorías de seguridad",
       "image": "https://res.cloudinary.com/dk1bxaazz/image/upload/v1686772006/Pr-Net/auditory_gmyzje.jpg",
       "price": 9999,
@@ -8,7 +8,7 @@ const dbServices = [
       "benefits": "Identificación de vulnerabilidades y riesgos de seguridad. Recomendaciones personalizadas para mejorar la seguridad. Protección proactiva contra amenazas y ataques cibernéticos."
     },
     {
-      "id": "awareness",
+      "id": 2,
       "name": "Servicios de concientización en seguridad",
       "image": "https://res.cloudinary.com/dk1bxaazz/image/upload/v1686772094/Pr-Net/seguridad-training-1024x621_je7kui.png",
       "price": 9999,
@@ -16,7 +16,7 @@ const dbServices = [
       "benefits": "Mayor conocimiento y conciencia de seguridad entre los empleados. Reducción del riesgo de violaciones de seguridad causadas por errores humanos. Fortalecimiento de las defensas contra ataques cibernéticos."
     },
     {
-      "id": "incidents",
+      "id": 3,
       "name": "Respuesta a incidentes de seguridad",
       "image": "https://res.cloudinary.com/dk1bxaazz/image/upload/v1686772698/Pr-Net/Preparar-la-respuesta-a-incidentes-en-una-empresa-Prepracion-de-la-empresa-frente-a-respuesta-ante-incidentes_plrqqy.jpg",
       "price": 9999,
@@ -24,7 +24,7 @@ const dbServices = [
       "benefits": "Respuesta rápida y eficiente ante incidentes de seguridad. Reducción del tiempo de inactividad y pérdida de datos. Mejora de la capacidad de recuperación frente a futuros incidentes."
     },
     {
-      "id": "internet",
+      "id": 4,
       "name": "Evaluación de seguridad de Internet de las Cosas (IoT)",
       "image": "https://res.cloudinary.com/dk1bxaazz/image/upload/v1686773255/Pr-Net/7.-GESTIONAR-LA-SEGURIDAD-DEL-INTERNET-DE-LAS-COSAS_y3ofnb.png",
       "price": 9999,
@@ -32,7 +32,7 @@ const dbServices = [
       "benefits": "Evaluación de la seguridad de tus dispositivos IoT. Identificación y mitigación de riesgos de seguridad en entornos IoT. Protección de datos y privacidad en dispositivos y sistemas conectados."
     },
     {
-      "id": "mobile",
+      "id": 5,
       "name": "Pruebas de penetración de aplicaciones móviles",
       "image": "https://res.cloudinary.com/dk1bxaazz/image/upload/v1686773385/Pr-Net/procesos-de-seguridad-en-apps-moviles_kxr8pf.webp",
       "price": 9999,
