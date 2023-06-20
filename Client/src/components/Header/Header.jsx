@@ -1,23 +1,30 @@
-//imports
 import "./header.css";
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import Modal from "react-bootstrap/Modal";
 import cartSvg from "../../../public/img/cart.svg";
+import Cart from "../../components/Cart/Cart";
 
 const Header = () => {
-  //añadimos una variable estado para ver si el navbar esta desplegado
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+  const [showCart, setShowCart] = useState(false);
 
-  //funcion que cambia el estado de isNavbarOpen
   const toggleNavbar = () => {
     setIsNavbarOpen(!isNavbarOpen);
   };
+
+  const openModal = () => {
+    setShowModal(true);
+    setShowCart(true);
+  };
+
   return (
     <header className="appHeader">
       <div className="logoDiv">
-        <Link className="logo" to="/">
+        <NavLink className="logo" to="/">
           <img src="../../img/logo.png" alt="logo" />
-        </Link>
+        </NavLink>
         <h1 className="homeH1">PR-NET</h1>
       </div>
 
@@ -48,12 +55,23 @@ const Header = () => {
             </NavLink>
           </li>
           <li className="navItem">
-            <Link to="/Cart" onClick={toggleNavbar}>
+            <button
+              onClick={() => {
+                openModal();
+                toggleNavbar();
+              }}
+              className="cart-button"
+            >
               <img src={cartSvg} alt="Cart" className="cart-icon" />
-            </Link>
+            </button>
           </li>
         </ul>
       </nav>
+
+      <Modal show={showModal} onHide={() => setShowModal(false)}>
+        <Modal.Header closeButton />
+        <Modal.Body>{showCart && <Cart />}</Modal.Body>
+      </Modal>
     </header>
   );
 };

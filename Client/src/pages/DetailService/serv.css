@@ -15,16 +15,42 @@
   width: 600px;
   height: 350px;
   margin: 10px 0;
+  object-fit: cover;
 }
 
 .servInfo p {
   font-size: 16px;
-  width: 60%;
+  width: 70%;
 }
-.servInfo a {
+
+.servInfo .btn {
   border: none;
 }
 
-.servInfo a:hover {
+.servInfo .btn:hover {
   color: #444444;
+}
+
+.back-btn {
+  position: absolute;
+  left: 0;
+  font-size: 40px;
+  bottom: 55%;
+}
+
+.next-btn {
+  position: absolute;
+  right: 0;
+  font-size: 40px;
+  bottom: 55%;
+}
+
+.next-btn,
+.back-btn {
+  color: #444444;
+}
+
+.next-btn:hover,
+.back-btn:hover {
+  background-color: #ededed;
 }

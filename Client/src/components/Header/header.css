@@ -29,10 +29,15 @@
   margin-top: 10px;
 }
 
+.cart-button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
 .cart-icon {
   width: 25px;
 }
-
 
 /* Navbar */
 .navbar {
