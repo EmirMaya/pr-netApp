@@ -1,6 +1,6 @@
 // Imports
 import "./home.css";
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import CarouselComp from "../../components/Carousel/Carousel";
 
@@ -61,27 +61,27 @@ const Home = () => {
 
           <div className="cardsDiv">
             <div className="card scale-105">
-              <img className="cardImg" src="../../img/analytics.svg" alt="" />
+              <img className="cardImg" src="/img/analytics.svg" alt="" />
               <h5 className="cardTitle">Analytics</h5>
             </div>
             <div className="card scale-105">
-              <img className="cardImg" src="../../img/cloud.svg" alt="" />
+              <img className="cardImg" src="/img/cloud.svg" alt="" />
               <h5 className="cardTitle">Respaldo de datos</h5>
             </div>
             <div className="card scale-105">
-              <img className="cardImg" src="../../img/progress.svg" alt="" />
+              <img className="cardImg" src="/img/progress.svg" alt="" />
               <h5 className="cardTitle">Continuidad</h5>
             </div>
             <div className="card scale-105">
-              <img className="cardImg" src="../../img/security.svg" alt="" />
+              <img className="cardImg" src="/img/security.svg" alt="" />
               <h5 className="cardTitle">Seguridad</h5>
             </div>
             <div className="card scale-105">
-              <img className="cardImg" src="../../img/server.svg" alt="" />
+              <img className="cardImg" src="/img/server.svg" alt="" />
               <h5 className="cardTitle">Servidores</h5>
             </div>
             <div className="card scale-105">
-              <img className="cardImg" src="../../img/team.svg" alt="" />
+              <img className="cardImg" src="/img/team.svg" alt="" />
               <h5 className="cardTitle">Servicio personalizado</h5>
             </div>
 

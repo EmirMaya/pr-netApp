@@ -2,7 +2,7 @@ import "./header.css";
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Modal from "react-bootstrap/Modal";
-import cartSvg from "../../../public/img/cart.svg";
+import cartSvg from "/img/cart.svg";
 import Cart from "../../components/Cart/Cart";
 
 const Header = () => {
@@ -23,7 +23,7 @@ const Header = () => {
     <header className="appHeader">
       <div className="logoDiv">
         <NavLink className="logo" to="/">
-          <img src="../../img/logo.png" alt="logo" />
+          <img src="/img/logo.png" alt="logo" />
         </NavLink>
         <h1 className="homeH1">PR-NET</h1>
       </div>

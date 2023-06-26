@@ -45,6 +45,10 @@
   transform-origin: top center;
 }
 
+.info p {
+  font-size: 15px;
+}
+
 @keyframes growDown {
   0% {
     transform: scaleY(0);

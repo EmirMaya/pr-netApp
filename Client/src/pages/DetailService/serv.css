@@ -54,3 +54,24 @@
 .back-btn:hover {
   background-color: #ededed;
 }
+
+@media screen and (max-width: 480px) {
+  .servInfo h2 {
+    font-size: 17px;
+    height: 30px;
+  }
+
+  .servInfo img {
+    height: 200px;
+    width: auto;
+  }
+
+  .servInfo p {
+    font-size: 14px;
+  }
+
+  .back-btn,
+  .next-btn {
+    display: none;
+  }
+}
