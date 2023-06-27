@@ -28,6 +28,7 @@ const Us = () => {
 
             {activeSection === "empresa" && (
               <div className="info">
+                  <img className="logoUs" src="/img/logo.png" alt="logo" />
                 <p>
                   Somos una empresa de desarrolladores especializados en
                   servicios de hacking ético. Nuestra misión es ayudar a las

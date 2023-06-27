@@ -12,7 +12,7 @@ const Home = () => {
         <div className="services">
           <h4>Servicios de seguridad cibernética</h4>
           <div className="serviceDiv">
-            <img className="serviceImg" src="../../img/services.jpg" alt="" />
+            <img className="serviceImg" src="../../img/services.jpg" alt="segCivernetica" />
             <ul className="serviceUl">
               <li className="serviceLi">
                 <div className="serviceTitle">
