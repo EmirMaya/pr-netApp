@@ -20,7 +20,7 @@
 
 ### Instalación y Uso
 
-1. Clona este repositorio: `git clone https://github.com/tu_usuario/prNet.git`
+1. Clona este repositorio: `git clone https://github.com/EmirMaya/pr-netApp`
 2. Instala las dependencias: `npm install`
 3. Inicia el servidor de desarrollo: `npm run dev`
 4. Abre tu navegador y visita `http://localhost:3000` para ver la aplicación en funcionamiento.
