@@ -36,7 +36,7 @@
 <br/>  
 
 
-## Used Technologies  
+## Tecnologías
 <table><tr><td valign="top" width="50%">
 
 
@@ -53,6 +53,7 @@
 </div>
 
 </td><td valign="top" width="50%">
-  
+
+<br/>
 ---
 ¡Gracias por utilizar PrNet! Si tienes alguna pregunta, problema o sugerencia, no dudes en [contactarnos](mailto:contacto@prnet.com). Estamos aquí para ayudarte.
