@@ -31,10 +31,10 @@
 
 ### Equipo
 
-- Emir Maya ([@usuario1](https://github.com/EmirMaya))
-- Gastón Franco ([@usuario2](https://github.com/gastonfr24))
-- Renzo Viscio ([@usuario3](https://github.com/Zonorg))
-- Soel Attala ([@usuario4](https://github.com/Soel-Attala))
+- Emir Maya ([@EmirMaya](https://github.com/EmirMaya))
+- Gastón Franco ([@gastonfr24](https://github.com/gastonfr24))
+- Renzo Viscio ([@Zonorg](https://github.com/Zonorg))
+- Soel Attala ([@Soel-Attala](https://github.com/Soel-Attala))
 
 ### Licencia
 
