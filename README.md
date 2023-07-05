@@ -2,11 +2,11 @@
 
 ![PrNet Logo](link_to_logo)
 
-¡Bienvenido/a a PrNet! Esta aplicación web desarrollada en Vite con preset React está diseñada para brindar soluciones de ciberseguridad a empresas de todos los tamaños. Nuestro objetivo es proteger la información confidencial y garantizar la integridad de los sistemas en el entorno digital.
+¡Bienvenido/a a PrNet! Esta aplicación web desarrollada en Vite está diseñada para brindar soluciones de ciberseguridad a empresas de todos los tamaños. Nuestro objetivo es proteger la información confidencial y garantizar la integridad de los sistemas en el entorno digital.
 
 ### Características principales
 
-- **Potente framework**: PrNet utiliza Vite con preset React, lo que proporciona un entorno de desarrollo rápido y eficiente, mejorando la productividad de nuestros desarrolladores.
+- **Potente framework**: PrNet utiliza Vite-React, lo que proporciona un entorno de desarrollo rápido y eficiente, mejorando la productividad de nuestros desarrolladores.
 
 - **Diseño atractivo**: Hemos implementado componentes de Bootstrap para asegurarnos de que la interfaz de usuario sea moderna, intuitiva y agradable para los usuarios.
 
@@ -16,7 +16,7 @@
 
 - **Solicitudes eficientes**: Hemos utilizado Axios para gestionar las solicitudes a través de la web, garantizando una comunicación rápida y confiable con nuestros servidores.
 
-- **Animaciones fluidas**: Con la ayuda de React Spinners, hemos agregado animaciones elegantes y suaves para mejorar la experiencia de los usuarios mientras interactúan con la aplicación.
+- **Animaciones fluidas**: Hemos agregado animaciones elegantes y suaves para mejorar la experiencia de los usuarios mientras interactúan con la aplicación.
 
 ### Instalación y Uso
 
@@ -31,8 +31,10 @@
 
 ### Equipo
 
-- Nombre del desarrollador 1 ([@usuario1](https://github.com/usuario1))
-- Nombre del desarrollador 2 ([@usuario2](https://github.com/usuario2))
+- Emir Maya ([@usuario1](https://github.com/EmirMaya))
+- Gastón Franco ([@usuario2](https://github.com/gastonfr24))
+- Renzo Viscio ([@usuario3](https://github.com/Zonorg))
+- Soel Attala ([@usuario4](https://github.com/Soel-Attala))
 
 ### Licencia
 
