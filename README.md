@@ -1,6 +1,6 @@
 ## PrNet - Seguridad Cibernética para Empresas
 
-<img src="https://res.cloudinary.com/dk1bxaazz/image/upload/v1688568368/Pr-Net/logo_oxgbib.png" height="100" width="100" />
+<img src="https://res.cloudinary.com/dk1bxaazz/image/upload/v1688568368/Pr-Net/logo_oxgbib.png" margin="auto" height="100" width="100" />
 
 ¡Bienvenido/a a PrNet! Esta aplicación web desarrollada en Vite está diseñada para brindar soluciones de ciberseguridad a empresas de todos los tamaños. Nuestro objetivo es proteger la información confidencial y garantizar la integridad de los sistemas en el entorno digital.
 
