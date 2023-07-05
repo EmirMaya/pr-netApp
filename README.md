@@ -25,9 +25,6 @@
 3. Inicia el servidor de desarrollo: `npm run dev`
 4. Abre tu navegador y visita `http://localhost:3000` para ver la aplicación en funcionamiento.
 
-### Contribución
-
-¡Nos encantaría recibir tus contribuciones para mejorar PrNet! Si deseas colaborar, asegúrate de seguir nuestras [directrices de contribución](CONTRIBUTING.md) y enviar tus pull requests. Juntos, podemos construir una plataforma más segura y confiable.
 
 ### Equipo
 
@@ -36,9 +33,6 @@
 - Renzo Viscio ([@Zonorg](https://github.com/Zonorg))
 - Soel Attala ([@Soel-Attala](https://github.com/Soel-Attala))
 
-### Licencia
-
-Este proyecto se encuentra bajo la licencia [MIT](LICENSE). Puedes consultar el archivo LICENSE para obtener más información sobre los derechos y restricciones de uso.
 
 ---
 ¡Gracias por utilizar PrNet! Si tienes alguna pregunta, problema o sugerencia, no dudes en [contactarnos](mailto:contacto@prnet.com). Estamos aquí para ayudarte.
